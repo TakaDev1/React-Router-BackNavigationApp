@@ -9,8 +9,13 @@ const About = () => {
   };
   return (
     <div>
-      <h2>About</h2>
-      <button onClick={handleBackHome}>戻る</button>
+      <h2 className="py-10">About</h2>
+      <button
+        onClick={handleBackHome}
+        className="w-1/4 bg-gray-500 text-white rounded-full hover:opacity-80 cursor-pointer py-2 transition"
+      >
+        戻る
+      </button>
     </div>
   );
 };
